@@ -1,0 +1,63 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Shopping</title>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body>
+        <script src="script.js"></script>
+        <header>
+            <ul class="menu">
+                <img class="logo" src="under-armour-logo-vector.jpg" alt="" width="50px" height="50px"/>
+                <br/>
+                <li><a href="index.html"><label class="bold"><b>Index</b></label></a></li>
+                <li><a href="tasks.html"><label class="bold"><b>Tasks</b></label></a></li>
+                <li><a href="#"><label class="bold"><b>Shopping</b></label></a></li>
+                <li><a href="https://www.underarmour.eu/en-pl/stephen-curry/"><label class="bold"><b>More</b></label></a></li>
+            </ul>
+        </header>
+        <div class="main">
+            <div class="form">
+                
+                <form class="block" method="POST">
+                    <h2 id ="login">Login Form</h2>
+                    <br/>
+                    <label>
+                        <input type="checkbox" id="important" name="additionals" value="Pack_as_gift"/>Is important
+                    </label>
+                    <label>
+                    <input type="checkbox" id="groceries" name="additionals" value="Pack_as_gift"/>Can be bought in groceries
+                    </label>
+                    <br/>
+                    <br/>
+                    <div>
+                    <label><b>Item to buy</b> <input type="text" id="input" class="inputvalues" placeholder="Please enter your item "/></label>
+                    <button type="button" class="btn_submit" onclick="addItem()">Add</button>
+                    
+                        <h4>Shooping list</h4>
+                        <ul id="values">
+                        </ul>
+                    </div>
+                    <div>
+                        <label><b>Item to remove</b> <input type="number" min="0" id="remove_input" class="inputvalues" placeholder="Please enter the item you want to delete "/></label>
+                        <button type="button" class="btn_remove" onclick="removeItem()">Remove</button>
+                    
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+        <footer>
+            <div class="foot">
+                <div class="myself">
+                    <label><strong>Made by @me</strong></label>
+                    <label>Abel Junior</label>
+                    <label>IBOUANGA</label>
+                    <label>2019</label>
+                </div>
+            </div>
+        </footer>
+    </body>
+    
+</html>

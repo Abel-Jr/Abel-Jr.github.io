@@ -1,0 +1,135 @@
+ul.menu{
+position: absolute;
+    top: 30px;
+    left: -20px;
+    width: 150px;
+    list-style-type: none;
+}
+.menu li{
+    background-color: white;
+    margin: 5px 0;
+    padding: 5px;
+    border-right: 1px solid #17252a;
+    border-top: 1px solid #17252a;
+    border-left: 5px solid #17252a;
+    border-bottom: 1px solid #17252a;
+}
+ul.menu a {
+    text-decoration: none
+  }
+  a:link {
+    color: blue;
+}
+  
+a:visited {
+    color: white;
+  }
+
+.bold{
+    color: black;
+    font-size: 20px;
+    text-underline-position: none;
+}
+.main{
+    padding-top: 0px ;
+    padding-bottom: 0px;
+    padding-right: 150px ;
+    padding-left: 250px ;
+    
+}
+.logo{
+    padding-top: -100px;
+    padding-bottom : 0px;
+    padding-left : 0px;
+    padding-right : 100px;
+}
+
+h1,h2,h3,h4{
+    color: white;
+}
+.little_image{
+    opacity: 0.5;
+}
+#login{
+margin-top: 0px ;
+margin-bottom : 0px ;
+margin-left : 200px ;
+margin-right : 0px ;
+}
+body{
+    background-color: rgb(71, 64, 64);
+    
+}
+.order{
+    font-size: 20px;
+}
+.foot{
+    padding: 10px;
+    background: gold;
+}
+.inputvalues{
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+ 
+  .form{
+    width: 500px;
+    /*margin: 0 auto;*/
+    background: white;
+    margin-top: 5px;
+    margin-left: 200px;
+    margin-bottom: 0px;
+    margin-top: 110px;
+    padding:5px;
+    border : 2px solid #2c3e50;
+    
+  }
+
+  #tasks_main{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    padding-left : 400px;
+    padding-right : 400px;
+
+  }
+  
+  .btn_submit{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left : 100px;
+    padding-right : 100px;
+    width: 100px;
+    padding: 8px;
+    background: green;
+  }
+  .btn_remove{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left : 100px;
+    padding-right : 100px;
+    width: 100px;
+    padding: 8px;
+    background: red;
+  }
+  .two{
+    color: white;
+    font-size: 18px;
+  }
+  .three{
+    color: rgb(233, 231, 97);
+    font-size: 18px;
+  }
+  #line{
+    height : 10px;
+    width : 1050px;
+    padding-top: 0px;
+    padding-bottom : 0px;
+    padding-left : 0px;
+    padding-right : 10px;
+    background-color: black;
+    border : solid 2px black;
+  }
+  .point,#list{
+    color: white;
+  }
